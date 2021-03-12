@@ -1,0 +1,14 @@
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\bin\Debug\ChuckyUltimate.exe.config
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\bin\Debug\ChuckyUltimate.exe
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\bin\Debug\ChuckyUltimate.pdb
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\bin\Debug\ChuckyUltimate.xml
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.Doom.resources
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.Form1.resources
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.Resources.resources
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.NextStep.resources
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.PlayTime.resources
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.vbproj.GenerateResource.cache
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.vbproj.CoreCompileInputs.cache
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.exe
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.xml
+C:\Users\Leeraoy.Jenkins\source\repos\ChuckyUltimate\obj\Debug\ChuckyUltimate.pdb

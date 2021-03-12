@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56AE2132-22D5-4337-9E45-36855BBA24F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ChuckyUltimate.My.MyApplication</StartupObject>
+    <RootNamespace>ChuckyUltimate</RootNamespace>
+    <AssemblyName>ChuckyUltimate</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ChuckyUltimate.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ChuckyUltimate.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Doom.Designer.vb">
+      <DependentUpon>Doom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NextStep.Designer.vb">
+      <DependentUpon>NextStep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NextStep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayTime.Designer.vb">
+      <DependentUpon>PlayTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlayTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Doom.resx">
+      <DependentUpon>Doom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NextStep.resx">
+      <DependentUpon>NextStep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayTime.resx">
+      <DependentUpon>PlayTime.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CKa5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuckys-laugh-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuck.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chucky1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\its-time-to-play.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-your-eyes-and-count-to-7.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youre-a-fucking-drag-you-know-that.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charles-lee-ray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eysd.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QzM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Li8o.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you-little-shit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hey-youre-pissing-your-pants.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-fucking-way.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide-the-soul.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinning.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZOVDEZ5FLFEO5BBWZCJFLWK2PU.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer_virus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oFYALq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wW41xH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\failure.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
